@@ -72,7 +72,7 @@ public class AppKalkulatorMeasuremetKue {
     public static void addConversionFlour() {
         System.out.println("Masukkan jumlah cup yang ingin dikonversikan: ");
         var input3 = Double.parseDouble(input("Cup (desimal)"));
-        System.out.println(input3 + " cup = " + input3 * 110 + " ml");
+        System.out.println(input3 + " cup = " + input3 * 110 + " gram");
         System.exit(0);
     }
 
@@ -82,7 +82,7 @@ public class AppKalkulatorMeasuremetKue {
     public static void addConversionButter() {
         System.out.println("Masukkan jumlah cup yang ingin dikonversikan: ");
         var input4 = Double.parseDouble(input("Cup (desimal)"));
-        System.out.println(input4 + " cup = " + input4 * 225 + " ml");
+        System.out.println(input4 + " cup = " + input4 * 225 + " gram");
         System.exit(0);
     }
 
@@ -92,7 +92,7 @@ public class AppKalkulatorMeasuremetKue {
     public static void addConversionCocoaPowder() {
         System.out.println("Masukkan jumlah cup yang ingin dikonversikan: ");
         var input5 = Double.parseDouble(input("Cup (desimal)"));
-        System.out.println(input5 + " cup = " + input5 * 110 + " ml");
+        System.out.println(input5 + " cup = " + input5 * 110 + " gram");
         System.exit(0);
     }
 
@@ -102,7 +102,7 @@ public class AppKalkulatorMeasuremetKue {
     public static void addConversionSugar() {
         System.out.println("Masukkan jumlah cup yang ingin dikonversikan: ");
            var input6 = Double.parseDouble(input("Cup (desimal)"));
-               System.out.println(input6 + " cup = " + input6 * 225 + " ml");
+               System.out.println(input6 + " cup = " + input6 * 225 + " gram");
                 System.exit(0);
     }
 
